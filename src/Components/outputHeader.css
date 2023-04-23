@@ -1,0 +1,99 @@
+@font-face{
+    font-family: 'digital-7';
+    src: url();
+}
+.screen{
+    font-family: 'digital-7', sans-serif;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+    font-size: 3.5rem;
+    height: 30px;
+    border: none;
+    background-color: rgb(30, 68, 163);
+    color-scheme: white;
+    text-align: right;
+    padding-right: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+@media(max-width: 1200px){
+    .heading{
+        width: 770px;
+
+    }
+    .screen{
+        width: 550px;
+        margin-left: 10px;
+    }
+    
+}
+@media(max-width: 1000px){
+    .heading{
+        width: 770px;
+
+    }
+    .screen{
+        width: 600px;
+        margin-left: 10px;
+    }
+    
+}
+@media(max-width: 800px){
+    .heading{
+        width: 770px;
+
+    }
+    .screen{
+        width: 550px;
+        margin-left: 10px;
+    }
+    
+}
+@media(max-width: 600px){
+    .heading{
+        width: 770px;
+
+    }
+    .screen{
+        width: 450px;
+       
+    }
+    
+}
+@media(max-width: 500px){
+    .heading{
+        width: 550px;
+
+    }
+    .screen{
+        width: 310px;
+        
+    }
+    
+}
+
+@media(max-width: 400px){
+    .heading{
+        width: 550px;
+
+    }
+    .screen{
+        width: 280px;
+        
+    }
+    
+}
+@media(max-width: 300px){
+    .heading{
+        width: 550px;
+
+    }
+    .screen{
+        width: 200px;
+        
+    }
+    
+}
